@@ -42,7 +42,6 @@ psql -U username
 ```
 ***
 ### Data types
-
 ```
 
 bigint	int8	signed eight-byte integer
@@ -120,7 +119,6 @@ DROP TABLE table_name CASCADE;
 
 ```
 ***
-
 ### Alter
 *Add a column*
 
@@ -151,7 +149,6 @@ ALTER TABLE table_name ADD PRIMARY KEY (column,...);
 ALTER TABLE table_name RENAME TO new_table_name;
 ```
 ***
-
 ### Querying
 
 *Select all from a table*
@@ -227,9 +224,7 @@ SELECT *
 FROM table
 GROUP BY column_1, column_2, ...;
 ```
-
-
-
+***
 ### Modifying
 ```sql
 INSERT INTO table(column1,column2,...)
@@ -255,7 +250,7 @@ DELETE FROM table_name;
 DELETE FROM table_name
 WHERE condition;
 ```
-
+***
 ### Joins
 
 ```sql
@@ -279,7 +274,7 @@ SELECT *
 FROM table1
 NATURAL JOIN table2;
 ```
-
+***
 ### Sets
 
 ```sql
@@ -295,8 +290,7 @@ SELECT * FROM table1
 INTERSECT
 SELECT * FROM table2;
 ```
-
-### Union
+***
 
 ## Functions
 
@@ -308,9 +302,10 @@ query;
 ```
 ***
 ## Stored procedures
-
+***
 ## Triggers
-
+***
 ## Indexes
-
+***
 ## Nested Queries
+***
