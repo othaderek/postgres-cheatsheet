@@ -176,10 +176,14 @@ FROM table
 WHERE condition;
 ```
 
-*Like operator*
+*Like operator, case-sensitive*
+*ILike operator, not case-sensitive*
 ```sql
 SELECT * FROM table_name
 WHERE column LIKE '%value%'
+
+SELECT * FROM table_name
+WHERE column ILIKE '%value%'
 ```
 
 *Between*
