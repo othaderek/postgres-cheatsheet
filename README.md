@@ -104,7 +104,6 @@ CREATE TABLE table_name (
 	column_name data_type,
 	column_name data_type
 )
-
 ```
 ***
 ### Drop
@@ -230,6 +229,8 @@ GROUP BY column_1, column_2, ...;
 ```
 ***
 ### Modifying
+
+You can add a row one or multiple at a time.
 ```sql
 INSERT INTO table(column1,column2,...)
 VALUES(value_1,value_2,...);
